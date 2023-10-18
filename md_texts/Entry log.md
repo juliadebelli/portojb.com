@@ -1,7 +1,9 @@
-Hello
+Here is a sample text that marks the beginning of this collection of words.
 
-This is my first blog post written in markdown, which will later be converted to the HTML you're probably reading.
+I write my stuff in markdown, call a node command called poster and it posts all .md texts as html pages.
 
-My markdown isn't very fluent at the moment so I'll keep it simple just so I can start this blog once and for all.
+This blog is designed to display academic articles about my research in technology, design and in-betweens.
 
-See you later!
+At <a href="https://juliadebelli.com/blog" target="_blank">my other blog</a> you can find less serious writings, experiments and comics.
+
+Cheers 🥂
