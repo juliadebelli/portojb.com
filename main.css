@@ -1,0 +1,363 @@
+/* @media (min-width: 19200px) { */
+/*                              */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+:root {
+  --julia-coral: #F96058;
+  --julia-deep-purple: #474069;
+  --julia-medium-grey: #AFACBC;
+  --julia-light-grey: #FBFFF1;
+  --tiffany-blue: #00CCCC;
+}
+
+* {
+  font-family: Montserrat, sans-serif;
+  list-style: none;
+}
+
+body {
+  background-color: var(--julia-light-grey);
+}
+
+head {
+  display: none;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h3, h5, h6, p, form, li {
+  color: var(--julia-deep-purple);
+  text-align: left;
+}
+
+
+
+.img-fluid {
+  max-width: 90%;
+  border-radius: 1em;
+}
+
+.italico {
+  font-style: italic;
+}
+
+button {
+  border: none;
+  height: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: var(--tiffany-blue);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.6em;
+  padding: 0.8em 1em 1em 1em;
+}
+
+button:hover {
+  background-color: var(--julia-deep-purple);
+  color: var(--julia-coral);
+}
+
+a {
+  color: var(--tiffany-blue);
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--julia-deep-purple);
+  text-decoration: none;
+}
+
+p {
+  text-align: left;
+}
+
+.line-height {
+  line-height: 1.8em;;
+}
+
+.dark-mode {
+  background-color: var(--julia-deep-purple);
+  color: var(--julia-light-grey);
+}
+
+.main-info {
+  border-radius: 20px;
+}
+
+.white-info {
+  background-color: white;
+}
+
+.other-info {
+  text-align: center;
+}
+
+.project-nav {
+  background-color: var(--julia-light-grey);
+  border-radius: 40px;
+}
+
+.breadcrumb {
+  background-color: var(--julia-light-grey);
+}
+
+.bi-arrow-left {
+  color: var(--julia-coral);
+}
+
+a.nav-link {
+  font-weight: bold;
+  color: var(--tiffany-blue) !important;
+  font-size: 1em;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+a.nav-link:hover {
+  color: var(--julia-deep-purple) !important;
+}
+
+.row {
+  display: inline-block;
+  position: relative;
+}
+
+.col {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.card {
+  margin: 0.4em;
+}
+
+.card-date {
+  color: var(--julia-deep-purple);
+  font-size: 0.7em;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.container article {
+  border-radius: 5px;
+}
+
+article h3 {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+/* here are project category colors */
+
+.tag {
+  font-weight: 400;
+  font-size: 0.8em;
+  
+}
+
+/*  */
+
+#me {
+  width: 256px;
+  height: 256px;
+}
+
+/*
+#me:hover {
+  opacity: 40%;
+}
+*/
+
+.estagio-icon {
+  height: 5em;
+}
+
+.page-title {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2em;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: var(--julia-coral)
+}
+
+.my-tag {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 0.4em;
+  border-radius: 0.4em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: white;
+}
+
+.ongoing {
+  background-color: var(--tiffany-blue);
+}
+
+.closed {
+  background-color: var(--julia-medium-grey);
+}
+
+form label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+form button {
+  background-color: var(--julia-coral);
+  color: var(--julia-light-grey);
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: var(--julia-deep-purple);
+  color: var(--julia-light-grey);
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+}
+
+.negrito {
+  font-weight: 600;
+}
+
+.italico {
+  font-style: italic;
+}
+
+::placeholder {
+  color: var(--julia-medium-grey);
+  padding-left: 1em;
+}
+
+.icon {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+}
+
+.separator {
+  height: 8px;
+}
+
+footer {
+  text-align: center;
+  color: #afacbc;
+}
+
+footer p{
+  display: inline-block;
+  margin: 20px 0 20px 0;
+  font-size: 0.8em;
+}
+
+footer ul {
+  display: inline-block;
+  list-style: none;
+}
+
+footer li {
+  display: inline;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 575px) {
+  /* Your CSS styles for screens smaller than 576px go here */
+  h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+}
+
+
+  /* The modal (pop-up) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 204, 204, 0.4); /* Black background with opacity */
+  }
+
+  /* Modal content */
+  .modal-content {
+    background-color: var(--julia-light-grey);
+    padding: 20px;
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+
+  /* Close button */
+  .close {
+    color: var(--julia-coral);
+    float: right;
+    font-size: 1.5em;
+  }
+
+  /* Close button on hover */
+  .close:hover {
+    color: var(--julia-deep-purple);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Style the form within the modal */
+  form {
+    max-width: 100%;
+  }
+
+
+  input, textarea {
+    background-color: var(--julia-light-grey);
+    border: 0;
+  }
+
+
