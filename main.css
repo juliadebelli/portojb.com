@@ -364,4 +364,8 @@ footer li {
     border-radius: 100%;
   }
 
+  .gray-text {
+    color: var(--julia-medium-grey);
+  }
+
 
