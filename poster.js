@@ -119,9 +119,10 @@ function listHTMLFiles() {
   <!-- favicon --></link>
   
   \n\n</head>\n<body>\n<section id="top-nav">\n<nav class="w-75 navbar navbar-expand-lg navbar-light container pt-4">
-  <a class="navbar-brand" href="https://www.behance.net/gallery/73953177/Personal-logo" target="_blank">
-    <img src="assets/monogram.svg" alt="personal branding" width="48" class="d-inline-block align-text-top">
-  </a>
+  <div class="d-block pr-4">   
+    <h1 class="d-inline-block align-text-top">PORTO, J.B.</h1>
+    <h5>Researcher</h5>
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -130,20 +131,22 @@ function listHTMLFiles() {
       <li class="nav-item">
         <a class="nav-link" href="index.html">Home</a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="work.html">Work</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8273655J5&tokenCaptchar=03AFcWeA6XZCSTA1Wn-ckFKwLF4Uq37vc74-XGBSDs64qOzFuztTAG3mTvUyZa8y_61XAOrNKcWP5NGRQnUrWrFphJ_5a5w__MRpVsVwrxD8svZ_fdN31TakSFJ2gS5ekg177Cl0mWT2Ih1jOxR_dmSl8mVwQju5vUJgxZWABYXJ-zepDykau3Jy2S1ceiw0cAjhH1riPsCWkpyEAvXpZeapKIQY4u2_54S2YSIoLGVxa3M3DBtHIJby2t9u-vzy8dCnHDm9DLgt0UHqhXsMu0nIPDtxtvbOFiFKvxD2eaaIZsEC_8p7DboLAGi07Qz0h_PZfY5SriLT3MR5OBL6Ur5YLqMF3e14P3nPbAyESnB3clKV7S-72ElEDKquLv4B3-p8rCrSkARnwkKpueDKApswzDaBWSduC5jX4iqUoztF-kiBXnhwedoRlb3aV3LC2DpC57HbqbLcOZMIGM1MeKjBxT59Tjidfdvcs7F1SPEFt9ON6bGsEMQFqdO5orGsLWpyp7Sh2Q2-eRJlCVdC1p3tgtqDXFmrXMqU1U2Hn6q9aryb5QHxVttTc" target="_blank">Lattes</a>
       </li>
 
       <li class="nav-item active">
         <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item">
+        <button id="chat-button" class="w-100">Contact</button>
+      </li>
     </ul>
   </div>
-</nav>\n</section>\n<div class="container w-75 pt-4 pl-5">\n<br><h1>I wrote these</h1><br>\n<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08980d56-6116-424b-bbfa-fef1dd46a501/d7i0pj0-be679d43-f4a5-422f-b3f3-dc3911c32373.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4OTgwZDU2LTYxMTYtNDI0Yi1iYmZhLWZlZjFkZDQ2YTUwMVwvZDdpMHBqMC1iZTY3OWQ0My1mNGE1LTQyMmYtYjNmMy1kYzM5MTFjMzIzNzMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ftJrBWBYjrfIh6ykpxxYSJ_Hu1WXoopO85q0dCF7hb4" style="mix-blend-mode: multiply;" alt="a very old gif I made over a decade ago">\n<br><br>\n<div>${listHTML}</div>\n</div>\n</body>\n</html>`;
+</nav>\n</section>\n<div class="container w-75 pt-4 pl-5">\n<br><h1>Julia's Blog</h1><br><p>
+Below are essays written by me that are related to my research and interests. Some of them might become their own paper someday.
+</p>\n<br><br>\n<div>${listHTML}</div>\n</div>\n</body>\n</html>`;
 
   // Write the page HTML to a file
   fs.writeFile('blog.html', pageHTML, function (err) {
