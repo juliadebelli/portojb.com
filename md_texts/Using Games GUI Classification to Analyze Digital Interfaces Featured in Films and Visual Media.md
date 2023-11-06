@@ -1,3 +1,5 @@
+*🇬🇧English version coming soon*
+
 Copyright disclaimer: todas os direitos sobre as imagens e clipes pertencem aos respectivos criadores
 
 Spoiler disclaimer: nada substancial
@@ -77,4 +79,6 @@ Ela fecha seu Nokia, frustrada, ao perceber que nunca seria respondida
 Comecei a juntar prints desses exemplos sem nenhuma intenção específica até o dia que tive a ideia de reuni-los pra falar sobre. Colecionar terminou virando um pequeno hobby e adoraria indicações de conteúdo com UI pra eu ir atrás e cometer bingewatching.
 
 Como consumidora de conteúdo e designer, chama minha atenção ver uma interface inserida em uma cena, e enche meus olhos quando ela marca toda a checklist que procuro atingir em meu trabalho: estética, sentido, objetividade e, mais importante, funcionar em unidade com o contexto sem que eu precise pausar ou voltar a cena para entender o que aconteceu.
+
+
 
